@@ -12,11 +12,112 @@
     height: 20rem;
     width: 30rem;
     background-color: rgb(250, 18, 192);
+    display: flex;
 }
+
+.Main-container-Top-left{
+
+    height: 20rem;
+    width: 10rem;
+    background-color: rgb(53, 98, 196);
+    padding-top: 30%;
+    overflow: hidden;
+
+
+}
+
+.Share
+{
+    
+    background-color: aliceblue;
+    font-size: 7rem;
+    text-align: center;
+    -webkit-transform: rotate(-90deg); 
+    
+}
+
+.Main-container-Top-right{
+    
+    height: 20rem;
+    width: 20rem;
+    background-color: rgb(214, 214, 226);
+
+
+}
+
+.Main-container-Top-right-Section-A{
+    height: 9rem;
+    width: 20rem;
+    background-color: rgb(2, 2, 49);
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.Main-container-Top-right-Section-B{
+    height: 10rem;
+    width: 20rem;
+    background-color: rgb(57, 226, 24);
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 25px;
+
+
+}
+
+
 
 .Main-container-Bottom{
 
     height: 10rem;
     width: 30rem;
     background-color: rgb(124, 77, 81);
+    display: flex;
+}
+
+.LogIn-Section{
+
+    height: 10rem;
+    width: 15rem;
+    background-color: rgb(25, 195, 218);
+
+}
+
+.LogIn-Button{
+
+    height: 2.5rem;
+    width: 10rem;
+    background-color: rgb(245, 249, 250);
+    margin-left: 30px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 30px;
+
+
+
+}
+
+.SignIn-Section{
+
+    height: 10rem;
+    width: 15rem;
+    background-color: rgb(150, 6, 85);
+
+}
+
+.SignIn-Button{
+
+    height: 2.5rem;
+    width: 10rem;
+    background-color: rgb(245, 249, 250);
+    margin-left: 30px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 30px;
+
+
+
 }
