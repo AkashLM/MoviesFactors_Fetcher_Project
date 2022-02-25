@@ -1,0 +1,30 @@
+.Nav-container{
+    margin-top: 0px;
+    padding: 0px;
+    background-color: #30475E;
+    height: 5rem;
+    width: 100%;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    position: relative;
+    display: flex;
+}
+
+.Logo-Home{
+
+    height: 80%;
+    width: 5rem;
+    background-color: yellow;
+    position: absolute;
+
+}
+
+.Menu-Home{
+
+    height: 80%;
+    width: 5rem;
+    background-color: yellow;
+    position: absolute;
+    margin-left: 80%;
+}
+

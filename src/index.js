@@ -1,8 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Check from './JSFiles/check';
+import NavigationBarHomePage from './JSFiles/NavigationBarHomePage';
 
 
 ReactDOM.render(
-  <h1>indexfile</h1>,
-  document.getElementById('root')
+  <NavigationBarHomePage />,document.getElementById('root')
+
 );
+
+
+// ReactDOM.render(
+//   <Check />,document.getElementById('root')
+
+// );
+
+
+
