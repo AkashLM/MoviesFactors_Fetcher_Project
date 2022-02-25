@@ -1,0 +1,22 @@
+.Main-container{
+
+    height: 30rem;
+    width: 30rem;
+    background-color: blue;
+    margin:50px;
+
+}
+
+.Main-container-Top{
+
+    height: 20rem;
+    width: 30rem;
+    background-color: rgb(250, 18, 192);
+}
+
+.Main-container-Bottom{
+
+    height: 10rem;
+    width: 30rem;
+    background-color: rgb(124, 77, 81);
+}

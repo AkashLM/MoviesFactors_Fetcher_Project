@@ -1,0 +1,91 @@
+
+.Ad-container{
+    height: 30rem;
+    width: 50rem;
+    background-color: aliceblue;
+    margin: 50px;
+    overflow: hidden;
+}
+
+.Ad-top{
+
+    height: 20rem;
+    width: 250rem;
+    background-color: rgb(73, 120, 160);
+    /* padding: 15px; */
+    display: flex;
+    animation-name: Scroll-Ad-Top;
+    animation-duration: 40s;
+    
+
+}
+
+.Ad-top-items{
+
+    height: 18rem;
+    width: 48rem;
+    background-color: rgb(204, 46, 7);
+    margin: 15px;
+    background-image: url('../PictureContent/scrol1.jpeg');
+    background-size: cover;
+
+
+}
+
+@keyframes Scroll-Ad-Top{
+
+    25%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: -400%;
+    }
+}
+
+
+.Ad-bottom{
+
+    height: 10rem;
+    width: 250rem;
+    background-color: rgb(103, 201, 23);
+    display: flex;
+    animation-name: Scroll-Ad-Bottom ;
+    animation-duration: 30s;
+
+}
+
+@keyframes Scroll-Ad-Bottom {
+
+    25%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: -400%;
+    }
+    
+
+
+}
+
+
+
+.Ad-bottom-items{
+    height: 7rem;
+    width: 11rem;
+    background-color: rgb(37, 15, 136);
+    margin-left: 1.2rem ;
+    margin-top: 1.5rem ;
+
+}
