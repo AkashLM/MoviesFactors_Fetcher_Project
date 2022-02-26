@@ -11,6 +11,7 @@
     position: relative;
     display: flex;
     border-radius: 15px;
+    /* border-left: 20rem dotted #52779c; */
 }
 
 .Logo-Home{
