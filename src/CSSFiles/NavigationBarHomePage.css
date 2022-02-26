@@ -1,23 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet");
+
 .Nav-container{
     margin-top: 0px;
     padding: 0px;
     background-color: #30475E;
-    height: 5rem;
+    height: 4.5rem;
     width: 100%;
     padding-left: 2rem;
     padding-top: 0.5rem;
     position: relative;
     display: flex;
+    border-radius: 15px;
 }
 
 .Logo-Home{
 
     height: 80%;
-    width: 5rem;
-    background-color: yellow;
+    width: 4rem;
+    /* background-color: yellow; */
     position: absolute;
+    background-image: url(../PictureContent/icon110.png);
+    background-size: cover;
 
 }
+
+.Logo-Name{
+
+    height: 50%;
+    width: 12rem;
+    /* background-color: yellow; */
+    margin-left: 55px;
+    text-align: center;
+    font-family: 'Rye', cursive;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    color: aqua;
+
+}
+
+.Logo-Name-dummy-span-1{
+    color: red;
+    font-size: 1.7rem;
+}
+
+.Logo-Name-dummy-span-2{
+    color: rgb(171, 71, 238);
+    /* font-size: 1.7rem; */
+}
+
+
 
 .Menu-Home{
 
@@ -25,6 +56,6 @@
     width: 5rem;
     background-color: yellow;
     position: absolute;
-    margin-left: 80%;
+    margin-left: 90%;
 }
 

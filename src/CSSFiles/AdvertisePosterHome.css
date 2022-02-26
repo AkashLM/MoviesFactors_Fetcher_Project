@@ -1,8 +1,9 @@
 
+
 .Ad-container{
     height: 30rem;
     width: 50rem;
-    background-color: aliceblue;
+    background-color: rgb(22, 20, 20);
     margin: 50px;
     overflow: hidden;
 }
@@ -11,11 +12,12 @@
 
     height: 20rem;
     width: 250rem;
-    background-color: rgb(73, 120, 160);
+    /* background-color: rgb(73, 120, 160); */
     /* padding: 15px; */
     display: flex;
     animation-name: Scroll-Ad-Top;
     animation-duration: 40s;
+    animation-iteration-count: infinite;
     
 
 }
@@ -24,13 +26,50 @@
 
     height: 18rem;
     width: 48rem;
-    background-color: rgb(204, 46, 7);
+    /* background-color: rgb(204, 46, 7); */
     margin: 15px;
-    background-image: url('../PictureContent/scrol1.jpeg');
-    background-size: cover;
+    border-radius: 5px;
 
 
 }
+
+.Ad-top-items-img-1{
+
+    background-image: url('../PictureContent/scrol1.jpeg');
+    background-size: cover;
+
+}
+
+.Ad-top-items-img-2{
+    
+    background-image: url('../PictureContent/scrol2.jpg');
+    background-size: cover;
+
+}
+
+
+.Ad-top-items-img-3{
+    
+    background-image: url('../PictureContent/scrol3.jpg');
+    background-size: cover;
+
+}
+
+
+.Ad-top-items-img-4{
+    
+    background-image: url('../PictureContent/scrol4.jpg');
+    background-size: cover;
+
+}
+
+.Ad-top-items-img-5{
+    
+    background-image: url('../PictureContent/scrol1.jpeg');
+    background-size: cover;
+
+}
+
 
 @keyframes Scroll-Ad-Top{
 
@@ -53,11 +92,25 @@
 
     height: 10rem;
     width: 250rem;
-    background-color: rgb(103, 201, 23);
+    background-color: rgb(44, 42, 42);
     display: flex;
     animation-name: Scroll-Ad-Bottom ;
-    animation-duration: 30s;
+    animation-duration: 150s;
+    animation-iteration-count: infinite;
 
+}
+.item1{
+    background-image: url('../PictureContent/scrol3.jpg');
+}
+
+.item2{
+    background-image: url('../PictureContent/scrol1.jpeg');
+}
+.item3{
+    background-image: url('../PictureContent/scrol2.jpg');
+}
+.item4{
+    background-image: url('../PictureContent/scrol5.jpg');
 }
 
 @keyframes Scroll-Ad-Bottom {
@@ -84,8 +137,10 @@
 .Ad-bottom-items{
     height: 7rem;
     width: 11rem;
-    background-color: rgb(37, 15, 136);
+    /* background-color: rgb(37, 15, 136); */
     margin-left: 1.2rem ;
     margin-top: 1.5rem ;
+    background-size: cover;
+    border-radius: 4px;
 
 }
