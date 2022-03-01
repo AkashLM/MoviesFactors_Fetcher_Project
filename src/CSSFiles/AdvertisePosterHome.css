@@ -7,6 +7,7 @@
     margin: 50px;
     overflow: hidden;
     border-left: 2rem dotted rgb(73, 72, 71);
+    border-radius: 0px 5px 5px 0px;
 }
 
 .Ad-top{
@@ -30,9 +31,19 @@
     /* background-color: rgb(204, 46, 7); */
     margin: 15px;
     border-radius: 5px;
-
+    cursor: pointer;
 
 }
+
+.Ad-top-items:hover{
+
+    height: 18.2rem;
+    width: 48.2rem;
+    box-shadow: 2px 2px 8px rgb(92, 87, 87);
+
+}
+
+
 
 .Ad-top-items-img-1{
 
@@ -143,5 +154,15 @@
     margin-top: 1.5rem ;
     background-size: cover;
     border-radius: 4px;
+    cursor: pointer;
+
 
 }
+
+.Ad-bottom-items:hover{
+    height: 7.4rem;
+    width: 11.4rem;
+    box-shadow: 4px 4px 8px rgb(92, 87, 87);
+}
+
+

@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet");
-@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet");
-@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet");
-@import url("https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet");
-@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 
 
 .Main-container{
@@ -44,6 +44,17 @@
     font-family: 'Black Ops One', cursive;
     
 }
+
+.Share:hover
+{
+    
+    background-color: aliceblue;
+    font-size: 5.2rem;
+    cursor: pointer;
+    
+}
+
+
 .Share-dummy-span{
     color: white;
 }
@@ -69,6 +80,14 @@
 
 }
 
+.Main-container-Top-right-Section-A:hover{
+  
+    font-size: 10.2rem;
+    cursor: pointer;
+
+}
+
+
 .Like-dummy-span{
     color:red
 }
@@ -85,6 +104,14 @@
     
 
 
+}
+
+.Main-container-Top-right-Section-B:hover{
+
+    font-size: 5.2rem;
+    text-align: center;
+    cursor: pointer;
+    
 }
 
 
@@ -116,6 +143,7 @@
     border-radius: 30px;
     font-family: 'Concert One', cursive;
     font-size: 1.2rem;
+    cursor: pointer;
 
 
 
@@ -141,6 +169,7 @@
     border-radius: 30px;
     font-family: 'Concert One', cursive;
     font-size: 1.2rem;
+    cursor: pointer;
 
 
 }
@@ -188,8 +217,64 @@
     /* background-color: white; */
     text-align: center;
     color: #0078d0;
+    cursor: pointer;
 }
 
 .Account-Qsn:hover{
     color: #fff;
 }
+
+/* For login popUp design separately */
+
+.Login-PopUp{
+    background-color: #0078d0;
+    border: 0;
+    border-radius: 56px;
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+    padding: 8px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 0px;
+    margin-left: 55%;
+    margin-right: -30px;
+  
+}
+
+.Login-PopUp:before {
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
+  }
+  
+  .Login-PopUp:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+  }
+  
+  .Account-Qsn-PopUp{
+    margin-left: 0px;
+    margin-top: -110px;
+    /* background-color: white; */
+    text-align: center;
+    color:  rgb(204, 186, 186);
+}
+
+.Account-Qsn-PopUp:hover{
+    color: #750550;
+}
+

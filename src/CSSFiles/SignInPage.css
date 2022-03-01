@@ -1,0 +1,48 @@
+.SignIn-Container{
+    background-color: #B762C1;
+    height: 35rem;
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-radius: 0.5rem;
+    padding-top: 2rem;
+    margin-top: -2000px;
+}
+
+.SignIn-Container::after{
+  background-color: initial;
+  background-image: linear-gradient(rgb(255, 255, 255) 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 0.5rem;
+  content: "";
+  height: 80%;
+  left: 0%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 100%;
+}
+
+.SignIn-Page-Logo{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 15rem;
+    /* background-color: aliceblue; */
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('../PictureContent/SignUpLogo.png');
+    background-size: cover;
+}
+
+.SignIn-User-Input{
+
+    height: 10rem;
+    width: 100%;
+    /* background-color: aliceblue; */
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+
+}
+

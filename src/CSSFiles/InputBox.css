@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.InputBoxContainer{
+    height: 2rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    border-bottom: 3px solid rgb(114, 82, 78);
+    border-right: 3px solid rgb(114, 82, 78);;
+    margin-left: 18%;
+    margin-right: auto;
+    border-left: 1px solid rgb(114, 82, 78);
+    border-top: 1px solid rgb(133, 111, 108);
+    background-color: rgb(207, 207, 226);
+    padding-left: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 9px;
+    color: #4C0027;
+    margin-bottom: 25px;
+
+}
+
+
+::placeholder {
+    color: #750550;
+  }

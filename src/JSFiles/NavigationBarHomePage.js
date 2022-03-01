@@ -12,7 +12,7 @@ const NavigationBarHomePage = () =>{
             </div>
 
             <div className='Menu-Home'>
-            <i class="fa-duotone fa-bars"></i>
+            <i className="fa-duotone fa-bars"></i>
             </div>
         </div>
 
